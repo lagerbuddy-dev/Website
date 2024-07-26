@@ -1,2 +1,19 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<header class="header">
+    {{- with .Site.Params.logo -}}
+    <div class="block"><img class="logo-header" src="{{ relURL . }}" /></div>
+    {{- end -}}
+    {{- range .Site.Menus.header -}}
+    <div class="navigation-pill-list">
+        <div class="navigation-pill">
+            <div class="pill-title">{{ .Name }}</div>
+        </div>
+    </div>
+    {{- end -}}
+    <div class="navigation-auth">
+        <button class="button text-wrapper">Anmelden</button>
+        <button class="button-1 text-wrapper">Registrieren</button>
+    </div>
+</header>
+
+
+<!-- {{ partial "menu.html" (dict "menuID" "main" "page" .) }} -->

@@ -1,0 +1,22 @@
+<div class="quick-faq">
+    <div class="text-content-heading">
+        <div class="text-wrapper-2">{{ .title }}</div>
+        <div class="text-wrapper-3">{{ .subtitle }}</div>
+    </div>
+    <div class="cards-2">
+        {{- range .cards -}}
+        <div class="card-2">
+            <img class="help-circle" src="../assets/img/help-circle-1.svg" />
+            <div class="body">
+                <div class="div-2">
+                    <div class="text-wrapper-2">{{ .Title }}</div>
+                    <p class="card-paragraph">
+                        {{- .RawContent -}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+</div>

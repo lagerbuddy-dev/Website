@@ -1,0 +1,44 @@
+baseURL: "http://example.org/"
+languageCode: "de"
+title: "Lagerbuddy Website"
+theme: "lagerbuddy"
+
+params:
+    logo: 'img/lb.png'
+    logo_mono: 'img/lb-2.svg'
+menus:
+    header:
+        - name: Service
+          pageRef: /service
+          weight: 1
+        - name: Hilfe
+          pageRef: /help
+          weight: 2
+        - name: "Preise"
+          pageRef: /prices
+          weight: 3
+        - name: Kontakt
+          pageRef: /contact
+          weight: 4
+    footer:
+        - name: Impressum
+          pageRef: /imprint
+          weight: 1
+        - name: Datenschutz
+          pageRef: /privacy
+          weight: 2
+        - name: Ressourcen
+          pageRef: /resources
+          weight: 3
+        - name: Impressum-A
+          parent: Impressum
+          pageRef: /imprint
+          weight: 10
+        - name: Impressum-B
+          parent: Impressum
+          pageRef: /imprint
+          weight: 20
+        - name: Impressum-C
+          parent: Impressum
+          pageRef: /imprint
+          weight: 30

@@ -1,7 +1,15 @@
-{{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
-{{ end }}
+{{- define "main" -}}
+
+  {{ $cardsHowTo := (sort ((.Site.GetPage "/quick-how-to").Resources.Match "quick_how_to_card*") ".Name" "asc") }}
+  {{ $cardsFaq := (sort ((.Site.GetPage "/quick-faq").Resources.Match "faq*") ".Name" "asc") }}
+  {{- $quickHowTo := .Site.GetPage "/quick-how-to" }}
+  {{- $serviceAvailability := .Site.GetPage "/service-availability" }}
+  {{- $technologyFirst := .Site.GetPage "/technology-first" }}
+  {{- $quickFaq := .Site.GetPage "/quick-faq" }}
+
+  {{- /* partial "quick_how_to.html" (dict "title" (index $allPages 0).Title "cards" (last (sub (len $allPages) 1) $allPages)) */ -}}
+  {{- partial "quick_how_to.html" (dict "title" $quickHowTo.Title "cards" $cardsHowTo) -}}
+  {{- partial "service_availability.html" (dict "title" $quickFaq.Title "subtitle" $quickFaq.Params.subtitle) -}}
+  {{- partial "technology_first.html" (dict "title" $technologyFirst.Title "subtitle" $technologyFirst.Params.subtitle "content" $technologyFirst.Content) -}}
+  {{- partial "quick_faq.html" (dict "title" $quickFaq.Title "subtitle" $quickFaq.Params.subtitle "cards" $cardsFaq) -}}
+{{- end }}

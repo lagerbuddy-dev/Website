@@ -1,0 +1,21 @@
+<div class="quick-how-to">
+    <div class="div heading">{{ .title }}</div>
+    <div class="cards">
+        {{ range .cards }}
+        <div class="card">
+            <div class="image">
+                <img src="../assets/img/image.svg" />
+            </div>
+            <div class="body">
+                <div class="div-2">
+                    <div class="text-wrapper-2">{{.Title}}</div>
+                    <p class="card-paragraph">
+                        {{.RawContent}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <button class="button-2 text-wrapper-1">Mehr Erfahren</button>
+</div>
