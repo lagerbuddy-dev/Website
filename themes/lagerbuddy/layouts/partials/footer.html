@@ -1,15 +1,19 @@
 <footer class="footer">
-    {{- with .Site.Params.logo_mono -}}
-    <img class="logo-footer" src="{{ relURL . }}" />
-    {{- end -}}
-    {{- range .Site.Menus.footer -}}
-    <div class="text-link-list">
-      <div class="text-strong-wrapper">
-        <div class="div-wrapper-2"><div class="text-strong">{{ .Name }}</div></div>
+  {{- with .Site.Params.logo_mono -}}
+  <img class="logo-footer" src="{{ relURL . }}" />
+  {{- end -}}
+  {{- range .Site.Menus.footer -}}
+  <div class="text-link-list">
+    <div class="text-strong-wrapper">
+      <div class="div-wrapper-2">
+        <div class="text-strong">{{ .Name }}</div>
       </div>
-      {{- range .Children -}}
-        <div class="text-link-list-item"><div class="list-item">{{ .Name }}</div></div>
-      {{- end -}}
+    </div>
+    {{- range .Children -}}
+    <div class="text-link-list-item">
+      <div class="list-item">{{ .Name }}</div>
     </div>
     {{- end -}}
-  </footer>
+  </div>
+  {{- end -}}
+</footer>

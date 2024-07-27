@@ -5,19 +5,11 @@
   {{- partial "head.html" . -}}
 </head>
 
-<body>
-  <div class="platform-desktop">
-    <header>
-      {{- partial "header.html" . -}}
-    </header>
-    <main>
-      {{- block "hero" . -}} {{- partial "hero.html" . -}} {{- end -}}
-      {{- block "main" . -}}{{- end -}}
-    </main>
-    <footer>
-      {{ partial "footer.html" . }}
-    </footer>
-  </div>
+<body class="platform-desktop">
+    {{- block "header" . -}} {{- partial "header.html" . -}} {{- end -}}
+    {{- block "hero" . -}} {{- partial "hero.html" . -}} {{- end -}}
+    {{- block "main" . -}}{{- end -}}
+    {{- block "footer" . -}} {{ partial "footer.html" . }} {{- end -}}
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 {{- define "main" -}}
-
   {{ $cardsHowTo := (sort ((.Site.GetPage "/quick-how-to").Resources.Match "quick_how_to_card*") ".Name" "asc") }}
   {{ $cardsFaq := (sort ((.Site.GetPage "/quick-faq").Resources.Match "faq*") ".Name" "asc") }}
   {{- $quickHowTo := .Site.GetPage "/quick-how-to" }}
