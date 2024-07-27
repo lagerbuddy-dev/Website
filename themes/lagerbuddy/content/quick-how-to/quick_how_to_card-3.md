@@ -2,7 +2,7 @@
 title: "Ausliefern"
 date: 2024-07-26T14:05:35+02:00
 tags: []
-featured_image: ""
+featured_image: "img/image-2.svg"
 headless: true
 description: ""
 params:

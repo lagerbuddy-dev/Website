@@ -2,7 +2,7 @@
 title: "Lagern"
 date: 2024-07-26T14:05:32+02:00
 tags: []
-featured_image: ""
+featured_image: "img/image-1.svg"
 headless: true
 description: ""
 params:

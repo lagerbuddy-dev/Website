@@ -1,9 +1,8 @@
 ---
 title: "Abholen"
 date: 2024-07-26T14:05:30+02:00
-index: 1
 tags: []
-featured_image: ""
+featured_image: "img/image.svg"
 headless: true
 description: ""
 params:

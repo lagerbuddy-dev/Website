@@ -1,4 +1,7 @@
-<div class="hero">
+{{- $hero := .Resources.Get "hero.svg" -}}
+{{- with $hero -}}
+<div class="hero" style="background-image: url( {{ .RelPermalink }} );">
+{{- end -}}
     <div class="div">
         <div class="title">{{ .Title }}</div>
         <div class="subtitle">{{ .Params.subtitle }}</div>

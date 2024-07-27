@@ -2,7 +2,7 @@
 title: "Geringe Kosten und schneller Zugriff"
 date: 2024-07-26T23:56:41+02:00
 tags: []
-featured_image: ""
+featured_image: "img/image-4.svg"
 description: ""
 params:
     subtitle: "Unsere Technologie macht den Unterschied"

@@ -2,7 +2,7 @@
 title: "Title 4"
 date: 2024-07-26T14:05:32+02:00
 tags: []
-featured_image: ""
+featured_image: "img/help-circle.svg"
 headless: true
 description: ""
 params:

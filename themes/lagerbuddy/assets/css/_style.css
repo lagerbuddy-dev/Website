@@ -182,7 +182,7 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-image: url(../img/welcome.svg);
+  /* background-image: url(../img/welcome.svg); */
   background-size: cover;
   background-position: 50% 50%;
 }
