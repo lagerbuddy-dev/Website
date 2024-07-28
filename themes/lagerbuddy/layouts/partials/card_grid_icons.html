@@ -1,7 +1,9 @@
 <div class="quick-faq">
-    <div class="text-content-heading">
-        <div class="text-wrapper-2">{{ .title }}</div>
-        <div class="text-wrapper-3">{{ .subtitle }}</div>
+    <div class="div">
+        <div class="heading">{{ .title }}</div>
+    {{- if not (eq .subtitle "") -}}
+        <div class="subheading">{{ .subtitle }}</div>
+    {{- end -}}
     </div>
     <div class="cards-2">
         {{- range .cards -}}

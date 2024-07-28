@@ -1,0 +1,19 @@
+{{- define "main" -}}
+{{- $store := .Site.GetPage "/service/store" }}
+{{ $cardsStore := (sort ($store.Resources.Match "step*") ".Name" "asc") }}
+{{- $deliver := .Site.GetPage "/service/deliver" }}
+{{ $cardsDeliver := (sort ($deliver.Resources.Match "step*") ".Name" "asc") }}
+{{- $collect := .Site.GetPage "/service/collect" }}
+{{ $cardsCollect:= (sort ($collect.Resources.Match "step*") ".Name" "asc") }}
+{{- $return := .Site.GetPage "/service/return" }}
+{{ $cardsReturn := (sort ($return.Resources.Match "step*") ".Name" "asc") }}
+{{- $boxesInfo := .Site.GetPage "/service/boxes" }}
+{{- $quickFaq := .Site.GetPage "/quick-faq" }}
+
+{{- partial "content_panel_image.html" (dict "title" $boxesInfo.Title "subtitle" $boxesInfo.Params.subtitle "content" $boxesInfo.Content "img" (resources.Get ($boxesInfo.Params.featured_image)).RelPermalink "imagePosition" "left") -}}
+{{- partial "card_grid_images.html" (dict "title" $store.Title "subtitle" $store.Params.subtitle "cards" $cardsStore "showButton" false) -}}
+{{- partial "card_grid_images.html" (dict "title" $deliver.Title "subtitle" $deliver.Params.subtitle "cards" $cardsDeliver "showButton" false) -}}
+{{- partial "card_grid_images.html" (dict "title" $collect.Title "subtitle" $collect.Params.subtitle "cards" $cardsCollect "showButton" false) -}}
+{{- partial "card_grid_images.html" (dict "title" $return.Title "subtitle" $return.Params.subtitle "cards" $cardsReturn "showButton" false) -}}
+{{- partial "content_panel_image.html" (dict "title" $boxesInfo.Title "subtitle" $boxesInfo.Params.subtitle "content" $boxesInfo.Content "img" (resources.Get ($boxesInfo.Params.featured_image)).RelPermalink "imagePosition" "right") -}}
+{{- end -}}

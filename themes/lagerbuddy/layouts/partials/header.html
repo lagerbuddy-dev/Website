@@ -1,11 +1,13 @@
 <header class="header">
+    {{- $homepageUrl := .Site.Home.RelPermalink -}}
     {{- with .Site.Params.logo -}}
-    <div class="block"><img class="logo-header" src="{{ relURL . }}" /></div>
+    <div class="block"><a href="{{- $homepageUrl -}}"><img class="logo-header" src="{{- relURL . -}}" /></a>
+    </div>
     {{- end -}}
     <div class="navigation-pill-list">
         {{- range .Site.Menus.header -}}
         <div class="navigation-pill">
-            <div class="pill-title">{{ .Name }}</div>
+            <a class="pill-title" href="{{ .URL }}">{{ .Name }}</a>
         </div>
         {{- end -}}
     </div>

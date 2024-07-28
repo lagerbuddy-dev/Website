@@ -1,12 +1,17 @@
 <div class="quick-how-to">
-    <div class="div heading">{{ .title }}</div>
+    <div class="div">
+        <div class="heading">{{ .title }}</div>
+    {{- if not (eq .subtitle "") -}}
+        <div class="subheading">{{ .subtitle }}</div>
+    {{- end -}}
+    </div>
     <div class="cards">
         {{ range .cards }}
         <div class="card">
             <div class="image">
                 {{- $imageName := .Param "featured_image" -}}
                 {{- with resources.Get $imageName -}}
-                <img src={{- .RelPermalink -}}/>
+                <img src={{- .RelPermalink -}} />
                 {{- end -}}
             </div>
             <div class="body">
@@ -20,5 +25,7 @@
         </div>
         {{ end }}
     </div>
+    {{- if (eq .showButton true) -}}
     <button class="button-2 text-wrapper-1">Mehr Erfahren</button>
+    {{- end -}}
 </div>

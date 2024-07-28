@@ -1,7 +1,9 @@
-<div class="technology-first">
+<div class="content-panel">
+    {{- if (eq .imagePosition "left") -}}
     <div class="image-3">
         <img src={{- .img -}} />
     </div>
+    {{- end -}}
     <div class="text-content-flow">
         <div class="div-2">
             <p class="text-wrapper-2">{{ .title }}</p>
@@ -13,4 +15,9 @@
             </div>
         </div>
     </div>
+    {{- if (eq .imagePosition "right") -}}
+    <div class="image-3">
+        <img src={{- .img -}} />
+    </div>
+    {{- end -}}
 </div>

@@ -177,7 +177,7 @@
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  padding: 160px 24px;
+  padding: 160px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -261,7 +261,6 @@
 
 .cards {
   display: flex;
-  height: 357px;
   padding: 0px;
   align-items: center;
   align-content: space-between;
@@ -269,6 +268,7 @@
   align-self: stretch;
   flex-wrap: wrap;
   width: 100%;
+  gap: 48px;
 }
 
 .card {
@@ -417,10 +417,11 @@
   font-style: var(--single-line-body-base-font-style);
 }
 
-.technology-first {
+.content-panel {
   display: flex;
   width: 1200px;
   align-items: center;
+  justify-content: center;
   gap: 32px;
   padding: 64px;
   position: relative;
