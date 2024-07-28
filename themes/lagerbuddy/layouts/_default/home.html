@@ -6,9 +6,9 @@
   {{- $technologyFirst := .Site.GetPage "/technology-first" }}
   {{- $quickFaq := .Site.GetPage "/quick-faq" }}
 
-  {{- /* partial "quick_how_to.html" (dict "title" (index $allPages 0).Title "cards" (last (sub (len $allPages) 1) $allPages)) */ -}}
-  {{- partial "quick_how_to.html" (dict "title" $quickHowTo.Title "cards" $cardsHowTo) -}}
+  {{- /* partial "card_grid_images.html" (dict "title" (index $allPages 0).Title "cards" (last (sub (len $allPages) 1) $allPages)) */ -}}
+  {{- partial "card_grid_images.html" (dict "title" $quickHowTo.Title "cards" $cardsHowTo) -}}
   {{- partial "service_availability.html" (dict "title" $serviceAvailability.Title "subtitle" $serviceAvailability.Params.subtitle "img" (resources.Get ($serviceAvailability.Params.featured_image)).RelPermalink)  -}}
-  {{- partial "technology_first.html" (dict "title" $technologyFirst.Title "subtitle" $technologyFirst.Params.subtitle "content" $technologyFirst.Content "img" (resources.Get ($technologyFirst.Params.featured_image)).RelPermalink) -}}
-  {{- partial "quick_faq.html" (dict "title" $quickFaq.Title "subtitle" $quickFaq.Params.subtitle "cards" $cardsFaq) -}}
+  {{- partial "content_panel_right.html" (dict "title" $technologyFirst.Title "subtitle" $technologyFirst.Params.subtitle "content" $technologyFirst.Content "img" (resources.Get ($technologyFirst.Params.featured_image)).RelPermalink) -}}
+  {{- partial "card_grid_icons.html" (dict "title" $quickFaq.Title "subtitle" $quickFaq.Params.subtitle "cards" $cardsFaq) -}}
 {{- end }}
