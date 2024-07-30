@@ -11,7 +11,7 @@
     </div>
     {{- range .Children -}}
     <div class="text-link-list-item">
-      <div class="list-item">{{ .Name }}</div>
+      <a class="list-item" href=" {{- .PageRef -}}"> {{ .Name }} </a>
     </div>
     {{- end -}}
   </div>

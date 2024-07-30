@@ -1,0 +1,31 @@
+<div class="quick-how-to">
+    <div class="div">
+        <div class="heading">{{ .title }}</div>
+    {{- if not (eq .subtitle "") -}}
+        <div class="subheading">{{ .subtitle }}</div>
+    {{- end -}}
+    </div>
+    <div class="cards">
+        {{ range .cards }}
+        <div class="card">
+            <div class="image">
+                {{- $imageName := .Param "featured_image" -}}
+                {{- with resources.Get $imageName -}}
+                <img src={{- .RelPermalink -}} />
+                {{- end -}}
+            </div>
+            <div class="body">
+                <div class="div-2">
+                    <div class="text-wrapper-2">{{ .Title }}</div>
+                    <div class="accordeon">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{- if (eq .showButton true) -}}
+    <button class="button-2 text-wrapper-1">Mehr Erfahren</button>
+    {{- end -}}
+</div>

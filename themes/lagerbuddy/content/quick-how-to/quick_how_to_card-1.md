@@ -9,4 +9,4 @@ params:
     subtitle: ""
 ---
 
-Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. 
+__Body__ text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. 

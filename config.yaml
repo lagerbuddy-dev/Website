@@ -14,31 +14,61 @@ menus:
         - name: Hilfe
           pageRef: /help
           weight: 2
-        - name: "Preise"
+        - name: Preise
           pageRef: /prices
           weight: 3
         - name: Kontakt
           pageRef: /contact
           weight: 4
     footer:
-        - name: Impressum
-          pageRef: /imprint
+        - name: Allgemeine Info
           weight: 1
-        - name: Datenschutz
-          pageRef: /privacy
+        - name: Rechtliches
           weight: 2
-        - name: Ressourcen
-          pageRef: /resources
+        - name: Mobile App
           weight: 3
-        - name: Impressum-A
-          parent: Impressum
-          pageRef: /imprint
-          weight: 10
-        - name: Impressum-B
-          parent: Impressum
+        - name: AGB's
+          parent: Rechtliches
+          pageRef: /terms-of-use
+          weight: 30
+        - name: Datenschutzhinweise
+          parent: Rechtliches
+          pageRef: /data-protection
+          weight: 20
+        - name: Impressum
+          parent: Rechtliches
           pageRef: /imprint
           weight: 20
-        - name: Impressum-C
-          parent: Impressum
+        - name: OSS-Lizenzen
+          parent: Mobile App
+          pageRef: /imprint
+          weight: 20
+        - name: Drittsoftware und -dienste
+          parent: Mobile App
+          pageRef: /imprint
+          weight: 10
+        - name: Eula
+          parent: Mobile App
           pageRef: /imprint
           weight: 30
+        - name: Über uns
+          parent: Allgemeine Info
+          pageRef: /terms-of-use
+          weight: 10
+        - name: Kontakt
+          parent: Allgemeine Info
+          pageRef: /imprint
+          weight: 20
+        - name: Blog
+          parent: Allgemeine Info
+          pageRef: /imprint
+          weight: 30
+
+# markup:
+#   goldmark:
+#     renderer:
+#       hardWraps: true
+#       unsafe: false
+
+        
+        

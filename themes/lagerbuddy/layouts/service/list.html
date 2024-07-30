@@ -10,6 +10,7 @@
 {{- $boxesInfo := .Site.GetPage "/service/boxes" }}
 {{- $trustInfo := .Site.GetPage "/service/trust" }}
 
+{{- partial "hero.html" . -}}
 {{- partial "content_panel_image.html" (dict "title" $boxesInfo.Title "subtitle" $boxesInfo.Params.subtitle "content" $boxesInfo.Content "img" (resources.Get ($boxesInfo.Params.featured_image)).RelPermalink "imagePosition" "left") -}}
 {{- partial "card_grid_images.html" (dict "title" $store.Title "subtitle" $store.Params.subtitle "cards" $cardsStore "showButton" false) -}}
 {{- partial "card_grid_images.html" (dict "title" $deliver.Title "subtitle" $deliver.Params.subtitle "cards" $cardsDeliver "showButton" false) -}}
