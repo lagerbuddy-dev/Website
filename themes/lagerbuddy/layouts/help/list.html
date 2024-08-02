@@ -1,0 +1,16 @@
+{{- define "main" -}}
+{{- $quick := .Site.GetPage "/help/quick" }}
+{{ $itemsQuick := (sort ($quick.Resources.Match "step*") ".Name" "asc") }}
+{{- $general := .Site.GetPage "/help/general" }}
+{{ $itemsGeneral := (sort ($general.Resources.Match "step*") ".Name" "asc") }}
+{{- $costs := .Site.GetPage "/help/costs" }}
+{{ $itemsCosts:= (sort ($costs.Resources.Match "step*") ".Name" "asc") }}
+{{- $items := .Site.GetPage "/help/items" }}
+{{ $itemsItems := (sort ($items.Resources.Match "step*") ".Name" "asc") }}
+
+{{- partial "hero.html" . -}}
+{{- partial "card_grid_accordion.html" (dict "title" $quick.Title "subtitle" $quick.Params.subtitle "cards" $itemsQuick) -}}
+{{- partial "accordion_panel.html" (dict "title" $general.Title "subtitle" $general.Params.subtitle "cards" $itemsGeneral) -}}
+{{- partial "accordion_panel.html" (dict "title" $costs.Title "subtitle" $costs.Params.subtitle "cards" $itemsCosts) -}}
+{{- partial "accordion_panel.html" (dict "title" $items.Title "subtitle" $items.Params.subtitle "cards" $itemsItems) -}}
+{{- end -}}

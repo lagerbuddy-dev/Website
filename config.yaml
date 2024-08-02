@@ -6,6 +6,8 @@ theme: "lagerbuddy"
 params:
     logo: 'img/lb.png'
     logo_mono: 'img/lb-2.svg'
+    chevron_down: 'img/chevron-down.svg'
+    chevron_up: 'img/chevron-up.svg'
 menus:
     header:
         - name: Service

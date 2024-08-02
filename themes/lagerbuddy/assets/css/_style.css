@@ -202,19 +202,16 @@
   background-color: var(--background-brand-default);
 }
 
-.accordeon-panel {
+.accordion-panel {
   display: flex;
   flex-direction: column;
+  width: 1200px;
   align-items: center;
+  justify-content: center;
   gap: 32px;
-  padding: 160px 32px;
+  padding: 64px;
   position: relative;
-  align-self: stretch;
-  width: 100%;
   flex: 0 0 auto;
-  /* background-image: url(../img/welcome.svg); */
-  background-size: cover;
-  background-position: 50% 50%;
   background-color: var(--background-brand-default);
 }
 
@@ -366,6 +363,17 @@
   flex: 0 0 auto;
 }
 
+.div-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
 .text-wrapper-2 {
   position: relative;
   align-self: stretch;
@@ -379,16 +387,86 @@
   font-style: var(--heading-font-style);
 }
 
-.accordeon {
+.accordion {
+  display: flex;
+  width: 277px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.accordion-long {
+  display: flex;
+  width: 640px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.accordion-item:active {
+  display: flex;
+  width: 120px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
   position: relative;
   align-self: stretch;
-  font-family: var(--body-base-font-family);
-  font-weight: var(--body-base-font-weight);
-  color: var(--text-brand-tertiary);
-  font-size: var(--body-base-font-size);
-  letter-spacing: var(--body-base-letter-spacing);
-  line-height: var(--body-base-line-height);
-  font-style: var(--body-base-font-style);
+}
+
+.accordion-item {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  align-self: stretch;
+  position: relative;
+  border: 1px solid;
+  border-radius: 12px;
+  border-color: var(--border-brand-default);
+  background-color: var(--background-brand-default);
+}
+
+.accordion-title {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  position: relative;
+  justify-content: space-between;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.accordion-content {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  align-self: stretch;
+}
+
+.chevron-down {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.text-wrapper-4 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--text-brand-default);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  font-style: var(--single-line-body-base-font-style);
 }
 
 .card-paragraph {

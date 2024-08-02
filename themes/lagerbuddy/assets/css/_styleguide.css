@@ -282,7 +282,7 @@
   --heading-font-family: "Roboto Slab";
   --heading-font-weight: 700;
   --heading-font-size: 24px;
-  --heading-letter-spacing: 0px;
+  --heading-letter-spacing: -0.1px;
   --heading-line-height: 120.00000476837158%;
   --heading-font-style: normal;
   --subheading-font-family: "Roboto Slab";

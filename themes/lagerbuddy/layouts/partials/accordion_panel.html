@@ -1,0 +1,23 @@
+<div class="accordion-panel">
+    <div class="div">
+        <div class="heading">{{ .title }}</div>
+    {{- if not (eq .subtitle "") -}}
+        <div class="subheading">{{ .subtitle }}</div>
+    {{- end -}}
+    </div>
+    <div class="accordion-long">
+        {{- range .cards -}}
+        <div class="accordion-item">
+            <div class="accordion-title">
+                <div class="text-wrapper">{{ .Title }}</div>
+                {{- with .Site.Params.chevron_down -}}
+                <img class="chevron-down" src="{{- relURL . -}}" />
+                {{- end -}}
+            </div>
+            <!-- <div class="accordion-content">
+                <p>{{ .Content }}</p>
+            </div> -->
+        </div>
+        {{- end -}}
+    </div>
+</div>
