@@ -5,16 +5,19 @@ const accordionItems = document.querySelectorAll('.accordion-item');
 accordionItems.forEach(item => {
     item.addEventListener('click', () => {
         // Toggle the active class on the clicked item
-        item.classList.toggle('active');
+        item.classList.toggle('accordion-item-active');
 
         // Get the panel associated with the clicked item
-        const panel = item.nextElementSibling;
+        const content = item.children[1];
+        const icon = item.children[0].children[1];
 
         // Toggle the display of the panel
-        if (panel.style.display === 'block') {
-            panel.style.display = 'none';
+        if (content.style.display === 'flex') {
+            content.style.display = 'none';
+            icon.innerHTML = 'expand_circle_down';
         } else {
-            panel.style.display = 'block';
+            content.style.display = 'flex';
+            icon.innerHTML = 'expand_circle_up';
         }
     });
 });

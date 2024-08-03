@@ -1,9 +1,9 @@
 <div class="quick-how-to">
     <div class="div">
         <div class="heading">{{ .title }}</div>
-    {{- if not (eq .subtitle "") -}}
+        {{- if not (eq .subtitle "") -}}
         <div class="subheading">{{ .subtitle }}</div>
-    {{- end -}}
+        {{- end -}}
     </div>
     <div class="cards">
         {{- range .cards -}}
@@ -21,35 +21,35 @@
                         <div class="accordion-item">
                             <div class="accordion-title">
                                 <div class="text-wrapper">Titel 1</div>
-                                {{- with .Site.Params.chevron_down -}}
-                                <img class="chevron-down" src="{{- relURL . -}}" />
-                                {{- end -}}
+                                <span class="material-symbols-outlined">
+                                    expand_circle_down
+                                </span>
                             </div>
-                            <!-- <div class="accordion-content">
-                                <p>{{ .Content }}</p>
-                            </div> -->
+                            <div class="accordion-content text" style="display: none">
+                                {{ .Content }}
+                            </div>
                         </div>
                         <div class="accordion-item">
                             <div class="accordion-title">
                                 <div class="text-wrapper">Titel 2</div>
-                            {{- with .Site.Params.chevron_down -}}
-                            <img class="chevron-down" src="{{- relURL . -}}" />
-                            {{- end -}}
+                                <span class="material-symbols-outlined">
+                                    expand_circle_down
+                                </span>
                             </div>
-                            <!-- <div class="accordion-content">
-                                <p>{{ .Content }}</p>
-                            </div> -->
+                            <div class="accordion-content text" style="display: none">
+                                {{ .Content }}
+                            </div>
                         </div>
                         <div class="accordion-item">
                             <div class="accordion-title">
                                 <div class="text-wrapper">Titel 3</div>
-                            {{- with .Site.Params.chevron_down -}}
-                            <img class="chevron-down" src="{{- relURL . -}}" />
-                            {{- end -}}
+                                <span class="material-symbols-outlined">
+                                    expand_circle_down
+                                </span>
                             </div>
-                            <!-- <div class="accordion-content">
-                                <p>{{ .Content }}</p>
-                            </div> -->
+                            <div class="accordion-content text" style="display: none">
+                                {{ .Content }}
+                            </div>
                         </div>
                     </div>
                 </div>

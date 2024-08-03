@@ -308,7 +308,7 @@
 .cards {
   display: flex;
   padding: 0px;
-  align-items: center;
+  align-items: flex-start;
   align-content: space-between;
   column-gap: 48px;
   align-self: stretch;
@@ -394,6 +394,7 @@
   align-items: flex-start;
   gap: 16px;
   position: relative;
+  transition: all 0.8s linear;
 }
 
 .accordion-long {
@@ -404,21 +405,16 @@
   justify-content: center;
   gap: 16px;
   position: relative;
+  transition: all 0.8s linear;
 }
 
-.accordion-item:active {
-  display: flex;
-  width: 120px;
-  padding: 16px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  position: relative;
-  align-self: stretch;
+.accordion-item-active {
+  background-color: var(--background-brand-secondary) !important;
 }
 
 .accordion-item {
   display: flex;
+  flex-direction: column;
   padding: 16px;
   align-items: center;
   align-self: stretch;
@@ -450,11 +446,11 @@
   align-self: stretch;
 }
 
-.chevron-down {
+/* .chevron-down {
   position: relative;
   width: 20px;
   height: 20px;
-}
+} */
 
 .text-wrapper-4 {
   position: relative;

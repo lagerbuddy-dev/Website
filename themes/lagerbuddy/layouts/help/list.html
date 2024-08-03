@@ -13,4 +13,5 @@
 {{- partial "accordion_panel.html" (dict "title" $general.Title "subtitle" $general.Params.subtitle "cards" $itemsGeneral) -}}
 {{- partial "accordion_panel.html" (dict "title" $costs.Title "subtitle" $costs.Params.subtitle "cards" $itemsCosts) -}}
 {{- partial "accordion_panel.html" (dict "title" $items.Title "subtitle" $items.Params.subtitle "cards" $itemsItems) -}}
+{{- partialCached "body/js.html" . -}}
 {{- end -}}

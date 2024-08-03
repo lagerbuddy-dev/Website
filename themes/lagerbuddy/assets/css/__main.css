@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:var(--subtitle-font-weight),var(--single-line-body-base-font-weight),var(--title-hero-font-weight),var(--heading-font-weight),var(--title-page-font-weight),var(--subheading-font-weight)|Mulish:var(--body-base-font-weight),var(--body-strong-font-weight)|Inter:700");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
