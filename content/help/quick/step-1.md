@@ -1,6 +1,6 @@
 ---
 title: "Gegenstände einlagern"
-date: 2024-07-28T14:35:00+02:00
+date: 2024-08-01T14:35:00+02:00
 tags: []
 featured_image: "img/image.svg"
 description: ""

@@ -1,6 +1,6 @@
 ---
 title: "Zugriff auf Gegenstände"
-date: 2024-07-28T14:35:03+02:00
+date: 2024-08-01T14:35:03+02:00
 tags: []
 featured_image: "img/image-1.svg"
 description: ""

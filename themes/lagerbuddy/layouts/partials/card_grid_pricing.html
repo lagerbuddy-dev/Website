@@ -1,4 +1,4 @@
-<div class="quick-faq">
+<div class="cards-panel-2">
     <div class="div">
         <div class="heading">{{ .title }}</div>
     {{- if not (eq .subtitle "") -}}
@@ -7,14 +7,17 @@
     </div>
     <div class="cards-2">
         {{- range .cards -}}
-        <div class="card-2">
-            {{- $imageName := .Param "featured_image" -}}
-            {{- with resources.Get $imageName -}}
-            <img class="help-circle" src={{- .RelPermalink -}}/>
-            {{- end -}}
+        <div class="card">
             <div class="body">
                 <div class="div-2">
                     <div class="text-wrapper-2">{{ .Title }}</div>
+                    <div class="text-price">
+                        <div class="price">
+                            <div class="title-price">{{- .Params.price -}}</div>
+                            <div class="title-price">{{- .Params.currency -}}</div>
+                        </div>
+                        <div class="text-small">/ Monat</div>
+                    </div>
                     <div class="card-paragraph">
                         {{- .Content -}}
                     </div>
@@ -23,5 +26,7 @@
         </div>
         {{ end }}
     </div>
-</div>
+    {{- if (eq .showButton true) -}}
+    <button class="button-2 text-wrapper-1">Registrieren</button>
+    {{- end -}}
 </div>

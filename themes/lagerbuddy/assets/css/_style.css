@@ -278,19 +278,6 @@
   flex: 0 0 auto;
 }
 
-.quick-how-to {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-  padding: 64px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: var(--background-brand-default);
-}
-
 .heading {
   text-align: center;
   position: relative;
@@ -385,6 +372,18 @@
   letter-spacing: var(--heading-letter-spacing);
   line-height: var(--heading-line-height);
   font-style: var(--heading-font-style);
+}
+
+.text-small {
+  position: relative;
+  margin-top: -1px;
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  color: var(--text-brand-default);
+  font-size: var(--body-small-font-size);
+  letter-spacing: var(--body-small-letter-spacing);
+  line-height: var(--body-small-line-height);
+  font-style: var(--body-small-font-style);
 }
 
 .accordion {
@@ -616,11 +615,53 @@
   font-style: var(--body-base-font-style);
 }
 
-.quick-faq {
+.title-price {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--title-page-font-family);
+  font-weight: var(--title-page-font-weight);
+  color: var(--text-brand-default);
+  font-size: var(--title-page-font-size);
+  text-align: center;
+  letter-spacing: var(--title-page-letter-spacing);
+  line-height: var(--title-page-line-height);
+  font-style: var(--title-page-font-style);
+}
+
+.text-price {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px; 
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.price {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cards-panel-2 {
   display: flex;
   flex-direction: column;
   width: 1200px;
   align-items: center;
+  gap: 32px;
+  padding: 64px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--background-brand-default);
+}
+
+.cards-panel {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
   gap: 32px;
   padding: 64px;
   position: relative;

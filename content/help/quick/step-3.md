@@ -1,6 +1,6 @@
 ---
 title: "Zahlung und Sicherheit"
-date: 2024-07-28T14:35:06+02:00
+date: 2024-08-01T14:35:06+02:00
 tags: []
 featured_image: "img/image-2.svg"
 description: ""

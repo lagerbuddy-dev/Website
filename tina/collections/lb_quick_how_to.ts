@@ -3,7 +3,7 @@ import { Collection } from "tinacms";
 const LB_Quick_How_To: Collection = {
   name: "lb_quick_how_to",
   label: "Quick How-To",
-  path: "content/quick-how-to",
+  path: "content/cards-panel",
   fields: [
     {
       type: "string",

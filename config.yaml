@@ -17,7 +17,7 @@ menus:
           pageRef: /help
           weight: 2
         - name: Preise
-          pageRef: /prices
+          pageRef: /pricing
           weight: 3
         - name: Kontakt
           pageRef: /contact

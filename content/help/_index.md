@@ -1,6 +1,6 @@
 ---
 title: "Wir sind da um zu helfen"
-date: 2024-07-28T13:23:16+02:00
+date: 2024-08-01T13:23:16+02:00
 tags: []
 featured_image: ""
 description: ""

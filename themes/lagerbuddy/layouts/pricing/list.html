@@ -1,0 +1,7 @@
+{{- define "main" -}}
+{{- $boxes := .Site.GetPage "/pricing/boxes" }}
+{{ $itemsBoxes := (sort ($boxes.Resources.Match "price*") ".Name" "asc") }}
+
+{{- partial "hero.html" . -}}
+{{- partial "card_grid_pricing.html" (dict "title" $boxes.Title "subtitle" $boxes.Params.subtitle "cards" $itemsBoxes "showButton" true) -}}
+{{- end -}}
