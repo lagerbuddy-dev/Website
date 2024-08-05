@@ -27,7 +27,7 @@ menus:
           weight: 1
         - name: Rechtliches
           weight: 2
-        - name: Mobile App
+        - name: LagerBuddy App
           weight: 3
         - name: AGB's
           parent: Rechtliches
@@ -42,15 +42,15 @@ menus:
           pageRef: /imprint
           weight: 20
         - name: OSS-Lizenzen
-          parent: Mobile App
+          parent: LagerBuddy App
           pageRef: /imprint
           weight: 20
         - name: Drittsoftware und -dienste
-          parent: Mobile App
+          parent: LagerBuddy App
           pageRef: /imprint
           weight: 10
         - name: Eula
-          parent: Mobile App
+          parent: LagerBuddy App
           pageRef: /imprint
           weight: 30
         - name: Über uns

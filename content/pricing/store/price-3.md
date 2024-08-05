@@ -1,9 +1,11 @@
 ---
-title: "1 Box"
-date: 2024-08-04T12:06:31+02:00
+title: "Price 3"
+date: 2024-08-04T12:06:39+02:00
 tags: []
 featured_image: ""
 description: ""
+headless: true
+draft: false
 params:
     subtitle: ""
     currency: " €"

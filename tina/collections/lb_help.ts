@@ -1,9 +1,9 @@
 import { Collection } from "tinacms";
 
-const LB_Store: Collection = {
-  name: "lb_store",
-  label: "Store",
-  path: "content/service/store",
+const LB_Help: Collection = {
+  name: "lb_help",
+  label: "Help",
+  path: "content/help",
   fields: [
     {
       type: "string",
@@ -64,4 +64,4 @@ const LB_Store: Collection = {
   ],
 };
 
-export default LB_Store;
+export default LB_Help;

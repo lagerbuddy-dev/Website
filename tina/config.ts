@@ -14,12 +14,8 @@ import LB_Service from "./collections/lb_service";
 import LB_Technology_First from "./collections/lb_technology_first";
 import LB_Terms_Of_Use from "./collections/lb_terms_of_use";
 import LB_Third_Party from "./collections/lb_third_party";
-import LB_Boxes from "./collections/service/lb_boxes";
-import LB_Collect from "./collections/service/lb_collect";
-import LB_Deliver from "./collections/service/lb_deliver";
-import LB_Return from "./collections/service/lb_return";
-import LB_Store from "./collections/service/lb_store";
-import LB_Trust from "./collections/service/lb_trust";
+import LB_Pricing from "./collections/lb_pricing";
+import LB_Help from "./collections/lb_help";
 
 export default defineConfig({
   clientId: process.env.TINA_CLIENT_ID!,
@@ -39,6 +35,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [LB_Main, LB_About, LB_Blog, LB_Contact, LB_Data_Protection, LB_Eula, LB_Imprint, LB_Oss, LB_Quick_Faq, LB_Quick_How_To, LB_Service_Availability, LB_Service, LB_Technology_First, LB_Terms_Of_Use, LB_Third_Party, LB_Boxes, LB_Collect, LB_Deliver, LB_Return, LB_Store, LB_Trust],
+    collections: [LB_Main, LB_About, LB_Blog, LB_Contact, LB_Data_Protection, LB_Eula, LB_Imprint, LB_Oss, LB_Quick_Faq, LB_Quick_How_To, LB_Service_Availability, LB_Service, LB_Technology_First, LB_Terms_Of_Use, LB_Third_Party, LB_Pricing, LB_Help],
   },
 });

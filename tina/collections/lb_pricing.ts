@@ -1,9 +1,9 @@
 import { Collection } from "tinacms";
 
-const LB_Collect: Collection = {
-  name: "lb_collect",
-  label: "Collect",
-  path: "content/service/collect",
+const LB_Pricing: Collection = {
+  name: "lb_pricing",
+  label: "Pricing",
+  path: "content/pricing",
   fields: [
     {
       type: "string",
@@ -53,6 +53,16 @@ const LB_Collect: Collection = {
           name : "subtitle",
           label : "Subtitle",
         },
+        {
+          type : "string",
+          name : "currency",
+          label : "Currency",
+        },
+        {
+          type : "string",
+          name : "price",
+          label : "Price",
+        },
       ],
     },
     {
@@ -64,4 +74,4 @@ const LB_Collect: Collection = {
   ],
 };
 
-export default LB_Collect;
+export default LB_Pricing;

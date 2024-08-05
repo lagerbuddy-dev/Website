@@ -1,5 +1,5 @@
 {{- define "main" -}}
-{{- $boxes := .Site.GetPage "/pricing/boxes" }}
+{{- $boxes := .Site.GetPage "/pricing/store" }}
 {{ $itemsBoxes := (sort ($boxes.Resources.Match "price*") ".Name" "asc") }}
 
 {{- partial "hero.html" . -}}
