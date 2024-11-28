@@ -233,6 +233,26 @@
   background-color: var(--background-brand-default);
 }
 
+.hero-coming-soon {
+  background-color: rgba(102, 255, 102, 0.2); /* translucent green */
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 32px; */
+  padding: 20vmax 2vmax;
+  /* top: 88px; */
+  position: relative;
+  align-self: stretch;
+   width: 100%;
+  /* width: 1200px; */
+  flex: auto;
+  /* background-image: url(../img/welcome.svg); */
+  background-size: cover;
+  background-position: 50% 50%;
+  /* background-color: var(--background-brand-default); */
+}
+
 .div {
   display: inline-flex;
   flex-direction: column;
@@ -263,6 +283,37 @@
   font-weight: var(--title-page-font-weight);
   color: #3b009a;
   font-size: var(--title-page-font-size);
+  text-align: center;
+  letter-spacing: var(--title-page-letter-spacing);
+  line-height: var(--title-page-line-height);
+  font-style: var(--title-page-font-style);
+}
+
+.title-coming-soon {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--title-hero-font-family);
+  font-weight: var(--title-hero-font-weight);
+  color: var(--background-default-default);
+  text-shadow: 0.4vmax 0.4vmax 0vmax #3b009aff, 0.1vmax 0.1vmax 0vmax #3b009aff, -0.15vmax 0.15vmax 0vmax #3b009aff, 0.15vmax -0.15vmax 0vmax #3b009aff, -0.15vmax -0.15vmax 0vmax #3b009aff;
+  /* -webkit-text-stroke: 2px #3b009aff;  */
+  font-size: 7vmax;
+  text-align: center;
+  letter-spacing: var(--title-hero-letter-spacing);
+  line-height: var(--title-hero-line-height);
+  font-style: var(--title-hero-font-style);
+}
+
+.subtitle-coming-soon {
+  position: relative;
+  align-self: stretch;
+  margin-top: 2vh;
+  font-family: var(--title-page-font-family);
+  font-weight: var(--title-page-font-weight);
+  color: #000000;
+  text-shadow: 0.2vmax 0.2vmax 0vmax var(--background-default-default);
+  font-size: 4vmax;
   text-align: center;
   letter-spacing: var(--title-page-letter-spacing);
   line-height: var(--title-page-line-height);

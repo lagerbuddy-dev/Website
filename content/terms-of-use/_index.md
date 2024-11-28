@@ -1,5 +1,5 @@
 ---
-title: "LagerBuddy GmbH"
+title: "Allgemeine Geschäftsbedingungen (AGB) für die Nutzung der App LagerBuddy Organizer"
 date: 2024-07-28T21:23:10+02:00
 tags: []
 featured_image: ""
@@ -7,10 +7,79 @@ description: ""
 headless: false
 draft: false
 params:
-    subtitle: "Allgemeine Geschäftsbedingungen"
+    subtitle: "Letzte Aktualisierung: 27.11.2024"
 ---
 
-Welcome to Clutter! These Terms of Use (“Terms”) of Clutter Inc. and Clutter RE LLC (together, “Clutter,” “we,” or “us”) are an agreement that describes your rights and responsibilities as a Clutter User, as defined below. This page explains the terms by which you may access or use our online and/or mobile services, web sites, applications, software, and documentation provided on or in connection with clutter.com and any services provided by us (collectively the “Site”), including our smart storage, moving, and related services, as further described and defined below (collectively the “Service(s)”). The Services include the Moving Services and the Smart Storage Services, as defined below, plus any other Services that Clutter may offer from time to time, in its sole discretion. These Terms are a legally binding agreement that describe your legal rights, remedies, and obligations and they also describe Clutter’s commitments, legal rights, and remedies, so please read them carefully.  
+## 1. Geltungsbereich
+Diese Allgemeinen Geschäftsbedingungen (AGB) regeln die Nutzung der Software LagerBuddy Organizer ("App"), die von der LagerBuddy GmbH ("Anbieter") bereitgestellt wird. Mit dem Herunterladen und der Nutzung der App erklären Sie sich mit diesen AGB einverstanden.
+
+---
+
+## 2. Vertragsgegenstand
+Die App wird kostenlos bereitgestellt und bietet Funktionen, wie sie im im jeweiligen App Store (z.B. Google Play Store) beschrieben. 
+
+Der Anbieter behält sich das Recht vor, die App jederzeit zu ändern, zu erweitern oder einzustellen.
+
+---
+
+## 3. Nutzungsberechtigung
+Die App darf nur von Personen genutzt werden, die mindestens 16 Jahre alt sind. Minderjährige unter 16 Jahren benötigen die Zustimmung eines Erziehungsberechtigten.
+
+---
+
+## 4. Pflichten des Nutzers
+Der Nutzer verpflichtet sich:
+1. Die App nicht für illegale oder unethische Zwecke zu nutzen.
+2. Keine Inhalte einzustellen, die gegen geltendes Recht, Rechte Dritter oder die guten Sitten verstoßen.
+3. Die App nicht zu manipulieren, dekompilieren oder anderweitig zu verändern.
+
+---
+
+## 5. Rechte des Anbieters
+Der Anbieter behält sich das Recht vor:
+1. Nutzern den Zugang zur App zu verweigern oder zu sperren, wenn sie gegen diese AGB verstoßen.
+2. Die App jederzeit zu aktualisieren, zu ändern oder den Betrieb einzustellen.
+
+---
+
+## 6. Datenschutz
+Die Verarbeitung personenbezogener Daten erfolgt gemäß unserer Datenschutzerklärung auf www.lagerbuddy.io. Durch die Nutzung der App stimmen Sie der Verarbeitung Ihrer Daten gemäß der Datenschutzerklärung zu.
+
+---
+
+## 7. Gewährleistung und Haftung
+1. Die App wird "wie gesehen" und "wie verfügbar" bereitgestellt, ohne Gewährleistung auf Fehlerfreiheit, Sicherheit oder Verfügbarkeit.
+2. Der Anbieter haftet nicht für Schäden, die durch die Nutzung oder Nichtnutzung der App entstehen, es sei denn, diese beruhen auf Vorsatz oder grober Fahrlässigkeit.
+
+---
+
+## 8. Änderungen der AGB
+Der Anbieter behält sich vor, diese AGB jederzeit zu ändern. Änderungen werden in der App oder auf einer anderen geeigneten Plattform bekannt gegeben. Mit der weiteren Nutzung der App nach der Änderung erklären Sie sich mit den geänderten AGB einverstanden.
+
+---
+
+## 9. Beendigung
+Der Anbieter kann die Bereitstellung der App jederzeit einstellen. Der Nutzer kann die Nutzung jederzeit durch Löschen der App beenden.
+
+---
+
+## 10. Anwendbares Recht
+Es gilt das Recht der Bundesrepublik Deutschland, unter Ausschluss des UN-Kaufrechts. Sofern der Nutzer Verbraucher ist, bleiben zwingende gesetzliche Bestimmungen des Wohnsitzstaates unberührt.
+
+---
+
+## 11. Kontakt
+Falls Sie Fragen oder Anliegen zu diesen AGB haben, können Sie uns wie folgt kontaktieren:  
+
+**LagerBuddy GmbH**  
+Nüffernstrasse 17  
+88682 Salem  
+daniel@lagerbuddy.io  
++49(0)155/61186778
+
+---
+
+<!-- Welcome to Clutter! These Terms of Use (“Terms”) of Clutter Inc. and Clutter RE LLC (together, “Clutter,” “we,” or “us”) are an agreement that describes your rights and responsibilities as a Clutter User, as defined below. This page explains the terms by which you may access or use our online and/or mobile services, web sites, applications, software, and documentation provided on or in connection with clutter.com and any services provided by us (collectively the “Site”), including our smart storage, moving, and related services, as further described and defined below (collectively the “Service(s)”). The Services include the Moving Services and the Smart Storage Services, as defined below, plus any other Services that Clutter may offer from time to time, in its sole discretion. These Terms are a legally binding agreement that describe your legal rights, remedies, and obligations and they also describe Clutter’s commitments, legal rights, and remedies, so please read them carefully.  
 By accessing or using the Site and/or using the Services (including reserving or booking the Services with Clutter, online, via phone, or otherwise, even if such Services are later canceled), clicking a button or checking a box marked “I Agree” or similar, or accessing your Clutter Account, you signify that you have read, understood, and agree to be bound by these Terms, to any additional terms in your Clutter Account, and to the collection, use, and disclosure of your information as set forth in the Clutter Privacy Policy, which is hereby incorporated by reference. These Terms apply to all visitors, users, and others who register for or otherwise access the Site or use the Services (“Users”, “you”, or “your”).
 ### USE OF OUR SITE
 #### Eligibility
@@ -209,4 +278,4 @@ No Waiver
 No waiver of any term of these Terms shall be deemed a further or continuing waiver of such term or any other term, and Clutter’s failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision.
 
 Contact.
-Please contact us through your Clutter Account at https://account.clutter.com with any questions regarding these Terms.
+Please contact us through your Clutter Account at https://account.clutter.com with any questions regarding these Terms. -->

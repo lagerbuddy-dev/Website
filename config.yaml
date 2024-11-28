@@ -23,11 +23,11 @@ menus:
           pageRef: /contact
           weight: 4
     footer:
-        - name: Allgemeine Info
-          weight: 1
+        # - name: Allgemeine Info
+        #   weight: 1
         - name: Rechtliches
           weight: 2
-        - name: LagerBuddy App
+        - name: LagerBuddy Organizer App
           weight: 3
         - name: AGB's
           parent: Rechtliches
@@ -42,29 +42,29 @@ menus:
           pageRef: /imprint
           weight: 20
         - name: OSS-Lizenzen
-          parent: LagerBuddy App
-          pageRef: /imprint
+          parent: LagerBuddy Organizer App
+          pageRef: /oss
           weight: 20
         - name: Drittsoftware und -dienste
-          parent: LagerBuddy App
-          pageRef: /imprint
+          parent: LagerBuddy Organizer App
+          pageRef: /third-party
           weight: 10
         - name: Eula
-          parent: LagerBuddy App
-          pageRef: /imprint
+          parent: LagerBuddy Organizer App
+          pageRef: /eula
           weight: 30
-        - name: Über uns
-          parent: Allgemeine Info
-          pageRef: /terms-of-use
-          weight: 10
-        - name: Kontakt
-          parent: Allgemeine Info
-          pageRef: /imprint
-          weight: 20
-        - name: Blog
-          parent: Allgemeine Info
-          pageRef: /imprint
-          weight: 30
+        # - name: Über uns
+        #   parent: Allgemeine Info
+        #   pageRef: 
+        #   weight: 10
+        # - name: Kontakt
+        #   parent: Allgemeine Info
+        #   pageRef: 
+        #   weight: 20
+        # - name: Blog
+        #   parent: Allgemeine Info
+        #   pageRef:
+        #   weight: 30
 
 # markup:
 #   goldmark:

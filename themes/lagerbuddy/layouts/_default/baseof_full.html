@@ -5,6 +5,7 @@
 </head>
 
 <body class="platform-desktop">
+    {{- block "header" . -}} {{- partial "header.html" . -}} {{- end -}}
     {{- block "main" . -}}{{- end -}}
     {{- block "footer" . -}} {{ partial "footer.html" . }} {{- end -}}
 </body>

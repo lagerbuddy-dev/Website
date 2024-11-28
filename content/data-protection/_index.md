@@ -1,5 +1,5 @@
 ---
-title: "Datenschutzinformation, Version 6.8"
+title: "Datenschutzerklärung für die Software LagerBuddy Organizer, Version 1.0"
 date: 2024-07-29T09:32:15+02:00
 tags: []
 featured_image: ""
@@ -7,10 +7,104 @@ description: ""
 headless: false
 draft: false
 params:
-    subtitle: "Stand: 17.07.2024"
+    subtitle: "Letzte Aktualisierung: 27.11.2024"
 ---
 
-Der Schutz Ihrer Daten gehört zu den wichtigsten Grundsätzen der STRATO AG. Wir möchten Sie mit dieser Datenschutzerklärung über Art, Umfang und Zweck der von uns erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren. Ferner möchten wir Sie über die Ihnen zustehenden Rechte aufklären.
+## Verantwortlicher
+Der Verantwortliche für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
+
+**LagerBuddy GmbH**  
+Nüffernstrasse 17  
+88682 Salem  
+daniel@lagerbuddy.io  
++49(0)155/61186778
+
+## Einleitung
+Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Diese Datenschutzerklärung erklärt, welche personenbezogenen Daten wir erheben, wie wir sie verwenden und welche Rechte Sie gemäß der DSGVO haben.
+
+---
+
+## 1. Erhobene Daten
+Unsere App kann folgende Daten erheben:
+
+### 1.1 Automatisch erfasste Daten
+- **Geräteinformationen** (z. B. Betriebssystem, App-Version)
+- **Logdaten** (z. B. Zeitstempel, Absturzberichte)
+
+### 1.2 Vom Nutzer bereitgestellte Daten
+- Daten, die Sie manuell in der App eingeben (z. B. bei der Registrierung, falls vorhanden).
+
+---
+
+## 2. Zweck der Datenverarbeitung
+Wir verarbeiten Ihre Daten zu folgenden Zwecken:
+- Zur Bereitstellung und Verbesserung unserer App.
+- Zur Fehlerbehebung und Analyse.
+- Zum Schutz vor Missbrauch und Betrug.
+
+---
+
+## 3. Rechtsgrundlage der Verarbeitung
+Die Verarbeitung Ihrer personenbezogenen Daten erfolgt gemäß Art. 6 Abs. 1 DSGVO:
+- **Buchstabe a**: Ihre Einwilligung (falls erforderlich, z. B. für Marketingzwecke).
+- **Buchstabe b**: Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen (z. B. Nutzung der App).
+- **Buchstabe f**: Wahrung berechtigter Interessen (z. B. Verbesserung der App).
+
+---
+
+## 4. Weitergabe von Daten an Dritte
+Ihre Daten werden nicht an Dritte weitergegeben, es sei denn:
+- Es ist gesetzlich vorgeschrieben (Art. 6 Abs. 1 Buchstabe c DSGVO).
+- Es ist erforderlich, um unseren Dienst bereitzustellen (z. B. technische Dienstleister).
+
+Falls Dritte eingebunden werden, stellen wir sicher, dass diese die DSGVO einhalten.
+
+---
+
+## 5. Speicherung und Löschung von Daten
+- Ihre personenbezogenen Daten werden nur so lange gespeichert, wie es für die Erfüllung der oben genannten Zwecke erforderlich ist.
+- Sobald die Daten nicht mehr benötigt werden, löschen wir diese entsprechend den gesetzlichen Vorschriften.
+
+---
+
+## 6. Rechte der betroffenen Personen
+Gemäß der DSGVO haben Sie folgende Rechte:
+
+1. **Recht auf Auskunft** (Art. 15 DSGVO): Sie können Auskunft über Ihre gespeicherten Daten verlangen.
+2. **Recht auf Berichtigung** (Art. 16 DSGVO): Sie können die Berichtigung unrichtiger Daten verlangen.
+3. **Recht auf Löschung** (Art. 17 DSGVO): Sie können die Löschung Ihrer Daten verlangen.
+4. **Recht auf Einschränkung der Verarbeitung** (Art. 18 DSGVO).
+5. **Recht auf Datenübertragbarkeit** (Art. 20 DSGVO).
+6. **Recht auf Widerspruch** (Art. 21 DSGVO): Sie können der Verarbeitung Ihrer Daten widersprechen.
+
+Zur Ausübung Ihrer Rechte können Sie uns jederzeit kontaktieren:  
+**E-Mail:** [Ihre E-Mail-Adresse]
+
+---
+
+## 7. Datensicherheit
+Wir setzen technische und organisatorische Maßnahmen ein, um Ihre Daten vor unbefugtem Zugriff, Verlust oder Zerstörung zu schützen.
+
+---
+
+## 8. Änderungen dieser Datenschutzerklärung
+Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren. Die aktuelle Version wird in der App veröffentlicht.
+
+---
+
+## 9. Kontakt
+Falls Sie Fragen zum Datenschutz haben, können Sie uns jederzeit kontaktieren:  
+
+**LagerBuddy GmbH**  
+Nüffernstrasse 17  
+88682 Salem  
+daniel@lagerbuddy.io  
++49(0)155/61186778
+
+---
+
+
+<!-- Der Schutz Ihrer Daten gehört zu den wichtigsten Grundsätzen der STRATO AG. Wir möchten Sie mit dieser Datenschutzerklärung über Art, Umfang und Zweck der von uns erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren. Ferner möchten wir Sie über die Ihnen zustehenden Rechte aufklären.
 
 1. Kontaktdaten
 Verantwortlicher:
@@ -360,4 +454,4 @@ Graurheindorfer Straße 153
 Die Bereitstellung personenbezogener Daten kann zum Teil gesetzlich vorgeschrieben sein (z.B. Steuervorschriften) oder sich auch aus vertraglichen Regelungen (z.B. Angaben zum Vertragspartner) ergeben. Mitunter kann es zu einem Vertragsschluss erforderlich sein, dass Sie uns personenbezogene Daten zur Verfügung stellen, die in der Folge durch uns verarbeitet werden müssen. Sie sind beispielsweise verpflichtet, uns personenbezogene Daten bereitzustellen, wenn wir mit Ihnen einen Vertrag abschließen. Eine Nichtbereitstellung der personenbezogenen Daten hätte zur Folge, dass der Vertrag nicht geschlossen werden könnte.
 
 9. Bestehen einer automatischen Entscheidungsfindung / Profiling
-Eine automatische Entscheidungsfindung oder Profiling nehmen wir nicht vor.
+Eine automatische Entscheidungsfindung oder Profiling nehmen wir nicht vor. -->

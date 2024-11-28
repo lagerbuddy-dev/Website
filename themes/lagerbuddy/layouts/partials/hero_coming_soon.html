@@ -1,0 +1,13 @@
+{{- $hero := .Resources.Get "hero.svg" -}}
+{{- with $hero -}}
+<div class="hero-coming-soon" style="background-image: url( {{ .RelPermalink }} );">
+{{- end -}}
+    <div class="div">
+        <div class="title-coming-soon">{{ .Title }}</div>
+        <div class="subtitle-coming-soon">{{ .Params.subtitle }}</div>
+    </div>
+    <!-- <div class="button-group">
+        <button class="button text-wrapper">Anmelden</button>
+        <button class="button-2 text-wrapper-1">Mehr Erfahren</button>
+    </div> -->
+</div>

@@ -6,10 +6,6 @@
   {{- $technologyFirst := .Site.GetPage "/technology-first" }}
   {{- $quickFaq := .Site.GetPage "/quick-faq" }}
 
-  {{- /* partial "card_grid_images.html" (dict "title" (index $allPages 0).Title "cards" (last (sub (len $allPages) 1) $allPages)) */ -}}
-  {{- partial "hero.html" . -}}
-  {{- partial "card_grid_images.html" (dict "title" $quickHowTo.Title "subtitle" $quickHowTo.Params.subtitle "cards" $cardsHowTo "showButton" true) -}}
-  {{- partial "service_availability.html" (dict "title" $serviceAvailability.Title "subtitle" $serviceAvailability.Params.subtitle "img" (resources.Get ($serviceAvailability.Params.featured_image)).RelPermalink)  -}}
-  {{- partial "content_panel_image.html" (dict "title" $technologyFirst.Title "subtitle" $technologyFirst.Params.subtitle "content" $technologyFirst.Content "img" (resources.Get ($technologyFirst.Params.featured_image)).RelPermalink "imagePosition" "left") -}}
-  {{- partial "card_grid_icons.html" (dict "title" $quickFaq.Title "subtitle" $quickFaq.Params.subtitle "cards" $cardsFaq) -}}
+  
+  {{- partial "hero_coming_soon.html" . -}}
 {{- end }}
