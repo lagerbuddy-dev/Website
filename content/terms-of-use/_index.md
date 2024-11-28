@@ -1,5 +1,5 @@
 ---
-title: "Allgemeine Geschäftsbedingungen (AGB) für die Nutzung der App LagerBuddy Organizer"
+title: "Allgemeine Geschäftsbedingungen (AGB) für die Nutzung der Software LagerBuddy Organizer"
 date: 2024-07-28T21:23:10+02:00
 tags: []
 featured_image: ""
