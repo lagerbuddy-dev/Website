@@ -8,6 +8,8 @@ params:
     logo_mono: 'img/lb-2.svg'
     chevron_down: 'img/chevron-down.svg'
     chevron_up: 'img/chevron-up.svg'
+    logo_circular: 'img/lb_logo_circle.svg'
+
 menus:
     header:
         - name: Service
@@ -27,7 +29,7 @@ menus:
         #   weight: 1
         - name: Rechtliches
           weight: 2
-        - name: LagerBuddy Organizer App
+        - name: LagerBuddy Organizer
           weight: 3
         - name: AGB's
           parent: Rechtliches
@@ -42,15 +44,15 @@ menus:
           pageRef: /imprint
           weight: 20
         - name: OSS-Lizenzen
-          parent: LagerBuddy Organizer App
+          parent: LagerBuddy Organizer
           pageRef: /oss
           weight: 20
         - name: Drittsoftware und -dienste
-          parent: LagerBuddy Organizer App
+          parent: LagerBuddy Organizer
           pageRef: /third-party
           weight: 10
         - name: Eula
-          parent: LagerBuddy Organizer App
+          parent: LagerBuddy Organizer
           pageRef: /eula
           weight: 30
         # - name: Über uns
