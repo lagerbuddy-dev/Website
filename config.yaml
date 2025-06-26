@@ -47,15 +47,19 @@ menus:
         - name: OSS-Lizenzen
           parent: LagerBuddy Organizer
           pageRef: /oss
-          weight: 20
+          weight: 40
         - name: Drittsoftware und -dienste
           parent: LagerBuddy Organizer
           pageRef: /third-party
-          weight: 10
+          weight: 30
         - name: Eula
           parent: LagerBuddy Organizer
           pageRef: /eula
-          weight: 30
+          weight: 20
+        - name: Datenschutzerklärung
+          parent: LagerBuddy Organizer
+          pageRef: /privacy-policy
+          weight: 10
         # - name: Über uns
         #   parent: Allgemeine Info
         #   pageRef: 
